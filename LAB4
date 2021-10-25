@@ -1,0 +1,21 @@
+#!/bin/sh
+echo "Enter three numbers:"
+read x y z
+if [ $x -gt $y ]
+then
+        if [ $x -gt $z ]
+        then
+                echo "$x is the biggest"
+        elif [ $z -gt $x ]
+        then
+                echo "$z is the biggest"
+        fi
+        else
+                if [ $z -gt $y ]
+then
+        echo "$z is biggest"
+else
+        echo "$y is the biggest"
+fi
+fi
+                                                                                                                                                                                                          
