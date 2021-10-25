@@ -1,0 +1,7 @@
+#!/bin/sh
+echo "Enter the radius of a circle"
+read r
+pi=3.142
+echo "Area of circle is:"
+area=`echo $pi\* $r\* $r | bc`
+echo $area
